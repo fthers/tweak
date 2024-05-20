@@ -4,7 +4,7 @@
 // Get the download url for Enmity.js
 NSString* getDownloadURL() {
   if (!IS_DEBUG) {
-    return @"https://raw.githubusercontent.com/enmity-mod/enmity/main/dist/Enmity.js";
+    return @"https://raw.githubusercontent.com/fthers/enmity/main/dist/Enmity.js";
   }
 
   return [NSString stringWithFormat:@"http://%@:8080/Enmity.js", DEBUG_IP];
